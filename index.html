@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<div id="contenedor" class="img-rounded alert-info">
+
+
+
+    <form class="form-horizontal" method="POST" action="registro.php" name="form">
+        <div class="form-group">
+
+            <label class="control-label" for="user">Usuario: </label>
+
+            <input type="text" class="form-control alert-success" id="user" name="user" placeholder="Usuario...">
+        </div>
+
+        <div class="form-group">
+            <label class="control-label" for="contrasena">Contraseña: </label>
+            <input type="password" class="form-control alert-success" id="contrasena" name="contrasena" placeholder="Contraseña..."
+                   >
+        </div>
+
+        <div class="form-group">
+            <label class="control-label" for="nombre">Nombre: </label>
+            <input type="text" class="form-control alert-success" id="nombre" name="nombre" placeholder="Nombre...">
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="apellido1">Primer apellido: </label>
+            <input type="text" class="form-control alert-success" id="apellido1" name="apellido1" placeholder="Primer apellido...">
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="apellido2">Segundo apellido: </label>
+            <input type="text" class="form-control alert-success" id="apellido2" name="apellido2" placeholder="Segundo apellido...">
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="direccion">Direccion: </label>
+            <input type="text" class="form-control alert-success" id="direccion" name="direccion" placeholder="Direccion...">
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="poblacion">Poblacion: </label>
+            <input type="text" class="form-control alert-success" id="poblacion" name="poblacion" placeholder="Poblacion...">
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="provincia">Provincia: </label>
+            <input type="text" class="form-control alert-success" id="provincia" name="provincia" placeholder="Provincia...">
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="nif">NIF: </label>
+            <input type="text" class="form-control alert-success" id="nif" name="nif" placeholder="NIF...">
+        </div>
+
+        <div class="form-group">
+            <label class="control-label" for="mail">Correo electronico: </label>
+            <input type="email" class="form-control alert-success" id="mail" name="mail" placeholder="Correo electronico...">
+        </div>
+
+        <div class="form-group">
+            <label class="control-label" for="telefono">Telefono: </label>
+            <input type="number" class="form-control alert-success" id="telefono" name="telefono" placeholder="Telefono..."
+                   maxlength="9" pattern="[0-9]{5}">
+        </div>
+
+        <div class="form-group">
+            <label class="control-label" for="foto">Foto: </label>
+            <input type="file" class="form-control alert-success" id="foto" name="foto" placeholder="Foto...">
+        </div>
+
+        <center>
+            <input type="submit" class="alert-success" id="fin">
+        </center>
+        <br>
+        <br>
+    </form>
+
+</div>
+</body>
+
+<footer>
+    <br>
+    <div class="container-fluid">
+
+
+        <span class="label label-success">PAGINA CREADA POR: </span>
+        <br>
+        <span class="label label-info">OLEG TVERDYY <span class="glyphicon glyphicon-copyright-mark"> </span></span>
+        </span>
+
+    </div>
+    <br>
+
+</footer>
+
+</html>
